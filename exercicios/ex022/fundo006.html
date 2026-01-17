@@ -6,23 +6,26 @@
     <title>Document</title>
     <style>
       body {
-       background-color: black;
+        /*background-color: black;
        background-image: url("imagens/wallpaper002.jpg");
        background-position: center center;
        background-repeat: no-repeat;
        background-size: cover;
        background-attachment: fixed;
-       
-    
+       /*shorthand background
+       color > image > position > repeat > [size] > attachment*/
+
+        background: black url("imagens/wallpaper002.jpg") center center
+          no-repeat fixed;
+        background-size: cover;
       }
-      main{
+      main {
         background-color: white;
         max-width: 400px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
         border-radius: 15px;
-        
       }
     </style>
   </head>
@@ -31,24 +34,63 @@
       <h1>teste de imagem de fundo</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur provident libero explicabo.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur provident libero explicabo.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur provident libero explicabo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur provident libero explicabo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur provident libero explicabo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur provident libero explicabo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur provident libero explicabo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur provident libero explicabo.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+        quasi dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio
+        libero mollitia, qui suscipit error fugit cum, a dolor. Lorem ipsum
+        dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam
+        possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis
+        nam laborum. Repudiandae perferendis dicta pariatur provident libero
+        explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae
+        id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil
+        doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore
+        sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur
+        provident libero explicabo. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem
+        perferendis beatae id nemo odio libero mollitia, qui suscipit error
+        fugit cum, a dolor. Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente
+        eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis
+        dicta pariatur provident libero explicabo.Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt
+        ullam dolorem perferendis beatae id nemo odio libero mollitia, qui
+        suscipit error fugit cum, a dolor. Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos?
+        Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum.
+        Repudiandae perferendis dicta pariatur provident libero explicabo.Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quasi
+        dicta itaque ad sunt ullam dolorem perferendis beatae id nemo odio
+        libero mollitia, qui suscipit error fugit cum, a dolor. Lorem ipsum
+        dolor, sit amet consectetur adipisicing elit. Qui nihil doloremque ullam
+        possimus eos? Officia corrupti sapiente eaque! Dolore sequi reiciendis
+        nam laborum. Repudiandae perferendis dicta pariatur provident libero
+        explicabo.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quisquam, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Doloribus, quasi dicta itaque ad sunt ullam dolorem perferendis beatae
+        id nemo odio libero mollitia, qui suscipit error fugit cum, a dolor.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nihil
+        doloremque ullam possimus eos? Officia corrupti sapiente eaque! Dolore
+        sequi reiciendis nam laborum. Repudiandae perferendis dicta pariatur
+        provident libero explicabo.Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Doloribus, quasi dicta itaque ad sunt ullam dolorem
+        perferendis beatae id nemo odio libero mollitia, qui suscipit error
+        fugit cum, a dolor. Lorem ipsum dolor, sit amet consectetur adipisicing
+        elit. Qui nihil doloremque ullam possimus eos? Officia corrupti sapiente
+        eaque! Dolore sequi reiciendis nam laborum. Repudiandae perferendis
+        dicta pariatur provident libero explicabo.Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Quisquam, quae. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Doloribus, quasi dicta itaque ad sunt
+        ullam dolorem perferendis beatae id nemo odio libero mollitia, qui
+        suscipit error fugit cum, a dolor. Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Qui nihil doloremque ullam possimus eos?
+        Officia corrupti sapiente eaque! Dolore sequi reiciendis nam laborum.
+        Repudiandae perferendis dicta pariatur provident libero explicabo.
       </p>
       
     </main>
